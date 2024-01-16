@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#font{
+  color: brown;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+}
+
+.header-top img{
+  vertical-align: middle;
+}
