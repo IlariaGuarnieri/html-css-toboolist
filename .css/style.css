@@ -19,7 +19,7 @@ header{
 }
 
 body{
-background-color: #F6F8F9;
+  background-color: #F6F8F9;
 }
 
 .header-top img{
@@ -62,7 +62,7 @@ background-color: #F6F8F9;
 
 .box2{
   width: 900px;
-  height: 500px;
+  height: 600px;
   margin-top: 3px;
   background-color: white;
   border-width: 5px;
@@ -74,11 +74,57 @@ background-color: #F6F8F9;
 
 #lista1{
   margin-left: 50px;
+  font-size: 20px;
 }
 
 #lista2{
-  
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
 }
+
+#lista3{
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#lista4{
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#lista5{
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#lista6{
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#lista7{
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#lista8{
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#lista9{
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
 span{
   margin-left: 20px;
   margin-top: 15px;
@@ -94,8 +140,59 @@ span{
   text-align: center;
 }
 
+#times{
+  list-style: none;
+  display: inline-block;
+  width: 23px;
+  border: 1px solid red;
+  border-radius: 50%;
+  color: red;
+  text-align: center;
+}
+
+#website{
+  background-color: #D863A1;
+  padding: 5px 14px;
+  border-radius: 15px;
+  font-size: .7em;
+  color: white;
+}
+
+
 #editorial{
   background-color: #45ABEA;
+  padding: 5px 14px;
+  border-radius: 15px;
+  font-size: .7em;
+  color: white;
+}
+
+#goals{
+  background-color: #9C73E4;
+  padding: 5px 14px;
+  border-radius: 15px;
+  font-size: .7em;
+  color: white;
+}
+
+#recruiting{
+  background-color: #64C0A9;
+  padding: 5px 14px;
+  border-radius: 15px;
+  font-size: .7em;
+  color: white;
+}
+
+#mobile{
+  background-color: #F29E33;
+  padding: 5px 14px;
+  border-radius: 15px;
+  font-size: .7em;
+  color: white;
+}
+
+#sales{
+  background-color: #B0C926;
   padding: 5px 14px;
   border-radius: 15px;
   font-size: .7em;
