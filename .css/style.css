@@ -4,9 +4,12 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
 #font{
   color: darkblue;
-  font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
 }
 
@@ -28,28 +31,73 @@ background-color: #F6F8F9;
   height: 100px;
   background-color: white;
   border-width: 5px;
-  border-style: solid;
   border-width: 1px;
   margin-left: 200px;
-  border-radius: 1%;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
 }
 
 .bottoni{
   max-height: 50px;
   padding: 10px;
   margin: 50px;
-  border: 3px;
+  border: 300px;
   border-radius: 5px;
   margin-bottom: 20px;
-  background-color: blue;
+  background-color: #47ADF1;
+  color: white;
+
 }
 
 .bottoni2{
-  max-height: 50px;
   padding: 10px;
   margin: 50px;
   border: 3px;
   border-radius: 5px;
-  margin-bottom: 10px;
-  background-color: grey;
+  border: 0.1px solid grey;
+  margin-left: -50px;
+  background-color: white;
+  color: gray;
+}
+
+.box2{
+  width: 900px;
+  height: 500px;
+  margin-top: 3px;
+  background-color: white;
+  border-width: 5px;
+  border-width: 1px;
+  margin-left: 200px;
+  border-bottom-right-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+
+#lista1{
+  margin-left: 50px;
+}
+
+#lista2{
+  
+}
+span{
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+#tick{
+  list-style: none;
+  display: inline-block;
+  width: 23px;
+  border: 1px solid green;
+  border-radius: 50%;
+  color: green;
+  text-align: center;
+}
+
+#editorial{
+  background-color: #45ABEA;
+  padding: 5px 14px;
+  border-radius: 15px;
+  font-size: .7em;
+  color: white;
 }
